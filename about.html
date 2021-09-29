@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Tgclone.css">
+    <style>   
+        input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: block;
+        border: 1px solid rgb(81, 154, 202);
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      select:hover {
+        border: 1px solid rgb(81, 154, 202);
+      }
+      input:hover {
+        border: 1px solid rgb(81, 154, 202);
+      }
+      </style>
+</head>
+<body style="background-color: #fff;">
+    
+    <div class="card-login">
+        
+        <img src="logo.png" class="img-about" alt="">
+        <h1 class="texts-welcome">Welcome to Telegram</h1>
+        <h5 class="h3-login">Please confirm your country code and enter your phone number.</h5>
+        
+         <div class="input-about">
+            
+            <form >
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                <label for="number">Number</label>
+                <input type="text" id="number" name="number" >
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="usa">UZB</option>
+                </select>
+                
+              </form>
+         </div>
+
+        <ul class="about-ul">
+            <li class=" next-link"><a  class="link-next " href="Tgclone.html">Next</a></li>
+            <li class="login-li"><a  class="link-login" href="Login.html">LOG IN BY QR CODE</a></li>
+            <li class="login-li"><a  class="link-login"href="#">ПРОДОЛЖИТЬ НА РУССКОМ</a></li>
+        </ul>
+        <div class="about-login">
+            <p class="web-login">Web.Tel.Onl</p>
+            <p class="web-version">Web Telegram Online unofficial version 0.7.2.38</p>
+        </div>
+    </div>
+
+    <script src="Tgclone.js"></script>
+</body>
+</html>
